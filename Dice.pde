@@ -8,13 +8,18 @@
   void draw()
   {
       background(50,50,50);
+      totaldice = 0;
       for (int j = 0; j < 550; j = j + 50) {
         for (int i = 0; i < 550; i = i + 50) { 
           Die bob = new Die(j, i); 
           bob.roll();
           bob.show();
+          totaldice = bob.numDots + totaldice;
       }
       }
+      fill(255);
+      textSize(22);
+      text("Total Roll:" + totaldice, 30, 600);
   }
   void mousePressed() 
   {
