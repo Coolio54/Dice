@@ -75,7 +75,7 @@
             ellipse(myX + 36, myY + 12, 7, 7);
             ellipse(myX + 12, myY + 24, 7, 7);
             ellipse(myX + 36, myY + 24, 7, 7);
-            ellipse(myX + 12, myY + 12, 7, 7);
+            ellipse(myX + 12, myY + 36, 7, 7);
             ellipse(myX + 36, myY + 36, 7, 7);
           }
       }
